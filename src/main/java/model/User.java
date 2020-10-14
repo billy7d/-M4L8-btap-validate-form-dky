@@ -12,6 +12,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.*;
 
 @Entity
+@Component
 public class User {
 
     @Id

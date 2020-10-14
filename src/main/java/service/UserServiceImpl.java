@@ -10,8 +10,6 @@ public class UserServiceImpl implements UserServiceInterface {
 
     @Override
     public void save(User user) {
-        if (user.getId() != null){
-
-        }
+        userRepoInterface.save(user);
     }
 }

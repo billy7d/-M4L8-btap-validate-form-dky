@@ -1,8 +1,8 @@
 package repository;
 
 import model.User;
-import org.springframework.data.repository.Repository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 
-public interface UserRepoInterface extends Repository<User,Integer> {
-    void save(User user);
+public interface UserRepoInterface extends PagingAndSortingRepository<User,Integer> {
+
 }
